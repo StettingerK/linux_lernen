@@ -21,3 +21,6 @@ jobs:
 
       - name: Welches System läuft hier?
         run: uname -a
+
+      - name: Welcher Tag ist heute?
+        run: date +%Y-%m-%d
